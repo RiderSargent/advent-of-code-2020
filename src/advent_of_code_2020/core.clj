@@ -1,7 +1,6 @@
 (ns advent-of-code-2020.core
-  (:gen-class))
+  (:require [advent-of-code-2020.day01 :as day01]))
 
 (defn -main
-  "I don't do a whole lot ... yet."
   [& args]
-  (println "Hello, World!"))
+  (day01/part1))
