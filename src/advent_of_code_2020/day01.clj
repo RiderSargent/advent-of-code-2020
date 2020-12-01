@@ -6,8 +6,16 @@
 
 (defn part1
   []
-  (prn (first (for [x input
-                    y input
-                    :when (= 2020 (+ x y))]
-                (* x y)))))
+  (first (for [x input
+               y input
+               :when (= 2020 (+ x y))]
+                 (* x y))))
+
+(defn part2
+  []
+  (first (for [x input
+               y input
+               z input
+               :when (= 2020 (+ x y z))]
+                 (* x y z))))
 

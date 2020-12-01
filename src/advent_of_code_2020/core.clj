@@ -3,4 +3,6 @@
 
 (defn -main
   [& args]
-  (day01/part1))
+  (println "Day 1, part 1: " (day01/part1))
+  (println "Day 1, part 2: " (day01/part2)))
+
