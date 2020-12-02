@@ -6,5 +6,6 @@
   [& args]
   (println "Day 1, part 1: " (day01/part1))
   (println "Day 1, part 2: " (day01/part2))
-  (println "Day 2, part 1: " (day02/part1)))
+  (println "Day 2, part 1: " (day02/part1))
+  (println "Day 2, part 1: " (day02/part2)))
 
